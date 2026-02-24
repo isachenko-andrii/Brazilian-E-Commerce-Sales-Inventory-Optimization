@@ -35,7 +35,10 @@ The analysis uses open-source data from the Olist Store, the largest department 
     
 ## Visualizations  
 
-The project includes:  
+The project includes: 
+    •  Project dashboard  
+    ![Dashboard](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Cover.png)
+    
     • Pareto Chart: Visualizing the 80/20 rule for product revenue.  
     
     • ABC/XYZ Matrix (Heatmap): A 3x3 grid showing the distribution of categories.  
