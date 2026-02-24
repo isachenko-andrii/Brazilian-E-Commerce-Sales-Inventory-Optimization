@@ -66,11 +66,13 @@ The project includes:
 
 To explore this analysis:  
     1. Download the project file  
-       project.xlsx (or link to Google Sheets) 
-       File location: [Link to your file]  
+       [project.xlsx](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/project.xlsx) 
+       File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/ 
     2. Access the Dataset  
        If you wish to see the raw data, download it from Kaggle:  
-       Kaggle: Brazilian E-Commerce Public Dataset  
+       [Kaggle: Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
+       or download CSV files from:  
+       File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
     3. Interacting with the Dashboard  
         ◦ Open the Dashboard tab.  
         ◦ Use Slicers to filter data by time period or product category.  
