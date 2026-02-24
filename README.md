@@ -53,7 +53,7 @@ The project includes:
 | - report/ — documentation and ABC/XYZ methodology explanation  
 | - results/ — screenshots of the Dashboard and final insights 
 | - LICENSE — license file  
-| - project-Logo.png — project cover  
+| - project-logo.png — project cover  
 | - README.md — project description  
     
 ## How to Use  
