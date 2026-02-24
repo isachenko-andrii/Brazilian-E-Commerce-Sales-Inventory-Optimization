@@ -36,17 +36,18 @@ The analysis uses open-source data from the Olist Store, the largest department 
 ## Visualizations  
 
 The project includes: 
-    • Pareto Chart: Visualizing the 80/20 rule for product revenue. 
-      
-    ![Pareto Chart](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Cover.png)  
-      
-    • ABC/XYZ Matrix (Heatmap): A 3x3 grid showing the distribution of categories.  
 
-    ![Pareto Chart](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/ABC-XYZ-analysis-matrix.png)  
+Pareto Chart: Visualizing the 80/20 rule for product revenue. 
+      
+![Pareto Chart](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Cover.png)  
+      
+ABC/XYZ Matrix (Heatmap): A 3x3 grid showing the distribution of categories.  
+
+![Pareto Chart](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/ABC-XYZ-analysis-matrix.png)  
         
-    • Sales Dynamics: Monthly revenue trends with category filters.  
+Sales Dynamics: Monthly revenue trends with category filters.  
 
-    ![Sales Dynamics](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Seasonality-of-leaders.png) 
+![Sales Dynamics](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Seasonality-of-leaders.png) 
     
 ## Project structure  
   
