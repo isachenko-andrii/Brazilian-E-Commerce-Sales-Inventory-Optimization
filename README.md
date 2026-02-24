@@ -54,9 +54,10 @@ The project includes:
 **Brazilian-E-Commerce-Sales-Inventory-Optimization**/ — project directory  
 | - data/ — project data  
 || - raw/ — original Olist CSV files (orders, items, products)  
-|| - processed/ — final Excel/Sheets file with formulas and master table  
-| - report/ — documentation and ABC/XYZ methodology explanation  
+|| - processed/ — final Excel/Sheets file with formulas and master table 
+| - docs/ — documentation and ABC/XYZ methodology explanation  
 | - results/ — screenshots of the Dashboard and final insights  
+| - report/ — report of project  
 | - LICENSE — license file  
 | - project-logo.png — project cover  
 | - README.md — project description  
