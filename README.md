@@ -86,11 +86,11 @@ If you wish to see the raw data, download it from Kaggle:
   or download CSV files from:  
 File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
   
-olist_order_items_dataset.csv - Main table with prices and ID  
-olist_products_dataset.csv - Directory of products and categories    
-product_category_name_translation.csv - Vocabulary: Portuguese -> English    
-olist_orders_dataset.csv - Order dates      
-        
+**olist_order_items_dataset.csv** - Main table with prices and ID  
+**olist_products_dataset.csv** - Directory of products and categories    
+**product_category_name_translation.csv** - Vocabulary: Portuguese -> English    
+**olist_orders_dataset.csv** - Order dates      
+  
 ## Contact  
     
 **Name:** Andrii Isachenko  
