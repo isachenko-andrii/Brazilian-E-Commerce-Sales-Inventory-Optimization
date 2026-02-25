@@ -1,6 +1,12 @@
 ![Project-logo](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/project-logo.png)
 ## Project title: Brazilian E-Commerce Sales & Inventory Optimization (ABC/XYZ Analysis)  
-  
+
+  <div align="center">
+
+## Мій заголовок
+
+</div>
+    
 ## Project description  
   
 This project provides a data-driven approach to optimizing inventory and sales strategies for the Brazilian Olist e-commerce platform.  
