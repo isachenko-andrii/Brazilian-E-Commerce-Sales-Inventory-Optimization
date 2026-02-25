@@ -9,11 +9,11 @@ This project provides a data-driven approach to optimizing inventory and sales s
   
 Managing over 70+ product categories requires a prioritized approach. The project answers three critical questions:  
   
-**Which products generate the most profit but are at risk of stockouts?**  
+    • **Which products generate the most profit but are at risk of stockouts?**  
   
-**Which categories have erratic demand and should be managed "on-demand"?**  
+    • **Which categories have erratic demand and should be managed "on-demand"?**  
   
-**Where can we reduce inventory to free up frozen capital?**  
+    • **Where can we reduce inventory to free up frozen capital?**  
   
 ## Data used  
   
@@ -62,8 +62,8 @@ The project includes an interactive dashboard for strategic decision-making:
   
 **Brazilian-E-Commerce-Sales-Inventory-Optimization**/ — project directory  
 ├── data/ — project data  
-│    ├── raw/ — original Olist CSV files (orders, items, products)  
-│    └── processed/ — final Excel/Sheets file with formulas and master table  
+│      ├── raw/ — original Olist CSV files (orders, items, products)  
+│      └── processed/ — final Excel/Sheets file with formulas and master table  
 ├── docs/ — documentation and ABC/XYZ methodology explanation  
 ├── results/ — screenshots of the Dashboard and final insights  
 ├── report/ — report of project  
