@@ -1,10 +1,8 @@
 ![Project-logo](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/project-logo.png)
-## Project title: Brazilian E-Commerce Sales & Inventory Optimization (ABC/XYZ Analysis)  
+## Project title:  (ABC/XYZ Analysis)  
 
   <div align="center">
-
-## Мій заголовок
-
+## Brazilian E-Commerce Sales & Inventory Optimization<br>(ABC/XYZ Analysis)
 </div>
     
 ## Project description  
