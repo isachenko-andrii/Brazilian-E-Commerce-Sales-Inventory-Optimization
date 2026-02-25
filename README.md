@@ -35,10 +35,10 @@ The analysis uses open-source data from the Olist Store, the largest department 
 <table>
   <thead>
     <tr>
-      <th align="left">Колонка</th>
-      <th align="left">Тип даних (Excel)</th>
-      <th align="left">Роль в аналізі</th>
-      <th align="left">Опис</th>
+      <th align="left">Column</th>
+      <th align="left">Data type</th>
+      <th align="left">Role in analysis</th>
+      <th align="left">Description</th>
     </tr>
   </thead>
   <tbody>
