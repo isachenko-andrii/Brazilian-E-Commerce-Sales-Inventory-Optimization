@@ -74,8 +74,8 @@ The project includes an interactive dashboard for strategic decision-making:
 ## How to Use  
 
 To explore this analysis:  
-    1. Download the project file  
-       [project.xlsx](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/project.xlsx)  
+    1. Download the archive with the project file  
+       [project.zip](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/project.zip)  
          
        File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/ 
          
@@ -85,11 +85,11 @@ To explore this analysis:
         
        or download CSV files from:  
        File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
-         
-    3. Interacting with the Dashboard  
-        ◦ Open the Dashboard tab.  
-        ◦ Use Slicers to filter data by time period or product category.  
-        ◦ Observe how the ABC/XYZ Matrix updates based on the selected filters.  
+  
+       olist_order_items_dataset.csv - Main table with prices and ID  
+       olist_products_dataset.csv - Directory of products and categories    
+       product_category_name_translation.csv - Vocabulary: Portuguese -> English    
+       olist_orders_dataset.csv - Order dates      
         
 ## Contact  
     
