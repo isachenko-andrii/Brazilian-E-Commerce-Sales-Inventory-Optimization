@@ -27,10 +27,11 @@ The analysis uses open-source data from the Olist Store, the largest department 
   
 **Tool:** Microsoft Excel / Google Sheets  
 **Advanced Formulas:**  
-* IFS & IFERROR for multi-level risk classification  
-* .STDEV.P / AVERAGE for Coefficient of Variation ($CV$) calculation.
-* XLOOKUP for relational data merging across multiple datasets.
-* Visualization: Interactive Dashboard with Slicers, Pareto Charts, and Heatmaps.
+* **IFS & IFERROR** for multi-level risk classification  
+* **STDEV / AVERAGE** for Coefficient of Variation ($CV$) calculation.  
+* **XLOOKUP** for relational data merging across multiple datasets.
+* **Pivot tables** for data aggregation
+* **Visualization:** Interactive Dashboard with Slicers, Pareto Charts, and Heatmaps.  
   
 ## Methodology & Formula Logic
  
