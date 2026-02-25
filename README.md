@@ -31,7 +31,7 @@ The analysis uses open-source data from the Olist Store, the largest department 
 * **STDEV / AVERAGE** for Coefficient of Variation ($CV$) calculation.  
 * **XLOOKUP** for relational data merging across multiple datasets.
 * **Pivot tables** for data aggregation
-* **Visualization:** Interactive Dashboard with Slicers, Pareto Charts, and Heatmaps.  
+* **Visualization:** Dashboard with KPI and charts.  
   
 ## Methodology & Formula Logic
  
