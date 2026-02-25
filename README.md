@@ -3,7 +3,9 @@
   
 ## Project description  
   
-This project provides a data-driven approach to optimizing inventory and sales strategies for the Brazilian Olist e-commerce platform. By implementing a combined ABC/XYZ Analysis, we classify product categories based on their revenue contribution and demand stability. This helps businesses minimize "dead stock," avoid stockouts for "star" products, and optimize working capital.  
+This project provides a data-driven approach to optimizing inventory and sales strategies for the Brazilian Olist e-commerce platform.  
+By implementing a combined ABC/XYZ Analysis, we classify product categories based on their revenue contribution and demand stability.  
+This helps businesses minimize "dead stock," avoid stockouts for "star" products, and optimize working capital.  
 
 ## Business Problem  
   
