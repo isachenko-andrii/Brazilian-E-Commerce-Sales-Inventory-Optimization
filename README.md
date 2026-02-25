@@ -40,11 +40,11 @@ The project stands out for its robust handling of edge cases in demand forecasti
   
 ## Key Insights & Results  
   
-    **• Revenue Concentration:** Group A represents only ~15% of categories but generates ~80% of total revenue ($6.97M).  
-    **• The "Star" Segment (AY):** Categories like health_beauty and computers_accessories are the backbone of the business—high revenue with manageable volatility.  
-    **• Risk Zone (AZ):** housewares and perfumery generate massive revenue but suffer from erratic spikes. They require a "Safety Stock" buffer of 25%+.  
-    **• The "Dead Stock" (CZ):** Identified categories with low revenue and zero predictability. Delisting these could free up approximately 15% of warehouse capacity.  
-    **• Seasonality:** Peak demand detected from May to July and a "Black Friday" spike in November.  
+• **Revenue Concentration:** Group A represents only ~15% of categories but generates ~80% of total revenue ($6.97M).  
+• **The "Star" Segment (AY):** Categories like health_beauty and computers_accessories are the backbone of the business—high revenue with manageable volatility.  
+• **Risk Zone (AZ):** housewares and perfumery generate massive revenue but suffer from erratic spikes. They require a "Safety Stock" buffer of 25%+.  
+• **The "Dead Stock" (CZ):** Identified categories with low revenue and zero predictability. Delisting these could free up approximately 15% of warehouse capacity.  
+• **Seasonality:** Peak demand detected from May to July and a "Black Friday" spike in November.  
   
 ## Visualizations  
 
