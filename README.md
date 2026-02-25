@@ -38,7 +38,21 @@ The analysis uses open-source data from the Olist Store, the largest department 
 The project stands out for its robust handling of edge cases in demand forecasting:  
     
   **ABC Analysis (Revenue Contribution)**  
-  A-Class (80% Revenue): High-priority drivers.B-Class (15% Revenue): Stable contributors.C-Class (5% Revenue): High-volume but low-value "long tail."XYZ Analysis (Demand Stability)We used the Coefficient of Variation ($CV$) to measure risk.Special Logic: To ensure accuracy, we implemented a custom formula to handle single-sale anomalies ($CV=0$):=IFERROR(IFS(CV=0; "Z"; CV>0.8; "Z"; CV>0.4; "Y"; TRUE; "X"); "Z")X (CV ≤ 0.4): Highly stable demand.Y (0.4 < CV ≤ 0.8): Moderate volatility (seasonality/promotions).Z (CV > 0.8 or single sales): Erratic/Unpredictable demand.  
+    
+  **A-Class (80% Revenue):** High-priority drivers.  
+  **B-Class (15% Revenue):** Stable contributors.  
+  **C-Class (5% Revenue):** High-volume but low-value "long tail."   
+     
+  **XYZ Analysis (Demand Stability)**  
+    
+  We used the **Coefficient of Variation (CV)** to measure risk.  
+  **Special Logic:** To ensure accuracy, we implemented a custom formula to handle single-sale  
+  **anomalies ($CV=0$):**  
+  =IFERROR(IFS(CV=0; "Z"; CV>0.8; "Z"; CV>0.4; "Y"; TRUE; "X"); "Z")  
+    
+  **X (CV ≤ 0.4):** Highly stable demand.  
+  **Y (0.4 < CV ≤ 0.8):** Moderate volatility (seasonality/promotions).  
+  **Z (CV > 0.8 or single sales):** Erratic/Unpredictable demand.  
   
 ## Key Insights & Results  
   
