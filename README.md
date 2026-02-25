@@ -7,13 +7,14 @@ This project provides a data-driven approach to optimizing inventory and sales s
 
 ## Business Problem  
   
-Managing over 70+ product categories requires a prioritized approach. The project answers three critical questions:  
+Managing over 70+ product categories requires a prioritized approach.  
+The project answers three critical questions:  
   
-    • **Which products generate the most profit but are at risk of stockouts?**  
+• **Which products generate the most profit but are at risk of stockouts?**  
   
-    • **Which categories have erratic demand and should be managed "on-demand"?**  
+• **Which categories have erratic demand and should be managed "on-demand"?**  
   
-    • **Where can we reduce inventory to free up frozen capital?**  
+• **Where can we reduce inventory to free up frozen capital?**  
   
 ## Data used  
   
