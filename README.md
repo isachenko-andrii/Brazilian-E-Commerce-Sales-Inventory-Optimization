@@ -77,7 +77,7 @@ The project includes an interactive dashboard for strategic decision-making:
 │   └── processed/     # Master Data with calculated metrics  
 ├── docs/              # Methodology explanations and project.xlsx  
 ├── results/           # Dashboard screenshots and insights  
-├── project-logo.png   # Project cover
+├── project-logo.png   # Project cover  
 ├── README.md          # Project documentation  
 └── LICENSE            # MIT License  
       
