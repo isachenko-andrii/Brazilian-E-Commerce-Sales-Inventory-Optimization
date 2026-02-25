@@ -171,7 +171,7 @@ File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-In
   
 ## Contact  
     
-**Name:** Andrii Isachenko  
+**Name:** [Andrii Isachenko](https://isachenko-andrii.github.io)  
 **LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
 **E-mail:** isao.datastudio@gmail.com  
   
