@@ -29,6 +29,57 @@ The analysis uses open-source data from the Olist Store, the largest department 
     • Source: [Kaggle (Brazilian E-Commerce Public Dataset by Olist)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
     • Sample size: 100,000+ orders from 2016 to 2018.  
     • Data composition: Relational structure including tables for orders, product items, product category translation, and timestamps.  
+
+**Types of basic data:**  
+  
+<table>
+  <thead>
+    <tr>
+      <th align="left">Колонка</th>
+      <th align="left">Тип даних (Excel)</th>
+      <th align="left">Роль в аналізі</th>
+      <th align="left">Опис</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>order_id</b></td>
+      <td><code>Text / String</code></td>
+      <td>Ідентифікатор</td>
+      <td>Унікальний номер замовлення. Використовується для підрахунку кількості угод.</td>
+    </tr>
+    <tr>
+      <td><b>product_id</b></td>
+      <td><code>Text / String</code></td>
+      <td>Ідентифікатор</td>
+      <td>Унікальний код товару для зв'язку між реляційними таблицями.</td>
+    </tr>
+    <tr>
+      <td><b>price</b></td>
+      <td><code>Currency / Number</code></td>
+      <td>Метрика (Revenue)</td>
+      <td>Вартість товару. Базовий показник для розрахунку часток у <b>ABC-аналізі</b>.</td>
+    </tr>
+    <tr>
+      <td><b>freight_value</b></td>
+      <td><code>Currency / Number</code></td>
+      <td>Метрика (Costs)</td>
+      <td>Витрати на логістику (доставку) для кожного окремого пункту замовлення.</td>
+    </tr>
+    <tr>
+      <td><b>Category_EN</b></td>
+      <td><code>Text / Category</code></td>
+      <td>Вимір (Dimension)</td>
+      <td>Назва категорії англійською. Основний рівень агрегації для <b>XYZ-аналізу</b>.</td>
+    </tr>
+    <tr>
+      <td><b>Order_Date</b></td>
+      <td><code>Date / Datetime</code></td>
+      <td>Тимчасовий ряд</td>
+      <td>Дата покупки. На її основі розраховано стабільність спросу (CV) по місяцях.</td>
+    </tr>
+  </tbody>
+</table>
     
 ## Technology Stack  
   
