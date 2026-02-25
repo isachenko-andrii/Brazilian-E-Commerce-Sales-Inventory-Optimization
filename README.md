@@ -74,22 +74,22 @@ The project includes an interactive dashboard for strategic decision-making:
 ## How to Use  
 
 To explore this analysis:  
-    1. Download the archive with the project file  
-       [project.zip](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/project.zip)  
+1. Download the archive with the project file  
+[project.zip](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/project.zip)  
          
-       File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/ 
-         
-    2. Access the Dataset  
-       If you wish to see the raw data, download it from Kaggle:  
-       [Kaggle: Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
-        
-       or download CSV files from:  
-       File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
+File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/ 
+      
+2. Access the Dataset  
+If you wish to see the raw data, download it from Kaggle:  
+[Kaggle: Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
   
-       olist_order_items_dataset.csv - Main table with prices and ID  
-       olist_products_dataset.csv - Directory of products and categories    
-       product_category_name_translation.csv - Vocabulary: Portuguese -> English    
-       olist_orders_dataset.csv - Order dates      
+  or download CSV files from:  
+File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
+  
+olist_order_items_dataset.csv - Main table with prices and ID  
+olist_products_dataset.csv - Directory of products and categories    
+product_category_name_translation.csv - Vocabulary: Portuguese -> English    
+olist_orders_dataset.csv - Order dates      
         
 ## Contact  
     
