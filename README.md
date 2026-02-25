@@ -71,14 +71,15 @@ The project includes an interactive dashboard for strategic decision-making:
 | - project-logo.png — project cover  
 | - README.md — project description  
 
-**Brazilian-E-Commerce-Sales-Inventory-Optimization** / 
-├── data/              # project data
-│   ├── raw/           # Original Olist CSV files (orders, items, products)
-│   └── processed/     # Master Data with calculated metrics
-├── docs/              # Methodology explanations and project.xlsx
-├── results/           # Dashboard screenshots and insights
-├── README.md          # Project documentation
-└── LICENSE            # MIT License
+**Brazilian-E-Commerce-Sales-Inventory-Optimization** /  
+├── data/              # project data  
+│   ├── raw/           # Original Olist CSV files (orders, items, products)  
+│   └── processed/     # Master Data with calculated metrics  
+├── docs/              # Methodology explanations and project.xlsx  
+├── results/           # Dashboard screenshots and insights  
+├── project-logo.png   # Project cover
+├── README.md          # Project documentation  
+└── LICENSE            # MIT License  
       
 ## How to Use  
 
