@@ -1,4 +1,4 @@
-![Project-logo](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/project-logo.png)
+11![Project-logo](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/project-logo.png)
   
   <div align="center">  
     
@@ -45,38 +45,38 @@ The analysis uses open-source data from the Olist Store, the largest department 
     <tr>
       <td><b>order_id</b></td>
       <td><code>Text</code></td>
-      <td>Ідентифікатор</td>
-      <td>Унікальний номер замовлення. Використовується для підрахунку кількості угод.</td>
+      <td>Identifier</td>
+      <td>Unique order number. Used to count the number of transactions.</td>
     </tr>
     <tr>
       <td><b>product_id</b></td>
       <td><code>Text</code></td>
-      <td>Ідентифікатор</td>
-      <td>Унікальний код товару для зв'язку між реляційними таблицями.</td>
+      <td>Identifier</td>
+      <td>A unique product code for linking between relational tables.</td>
     </tr>
     <tr>
       <td><b>price</b></td>
       <td><code>Number</code></td>
-      <td>Метрика (Revenue)</td>
-      <td>Вартість товару. Базовий показник для розрахунку часток у <b>ABC-аналізі</b>.</td>
+      <td>Metrics (Revenue)</td>
+      <td>Cost of goods. The basic indicator for calculating shares in <b>ABC analysis</b>.</td>
     </tr>
     <tr>
       <td><b>freight_value</b></td>
       <td><code>Number</code></td>
-      <td>Метрика (Costs)</td>
-      <td>Витрати на логістику (доставку) для кожного окремого пункту замовлення.</td>
+      <td>Metrics (Costs)</td>
+      <td>Logistics (delivery) costs for each individual order item.</td>
     </tr>
     <tr>
       <td><b>Category_EN</b></td>
       <td><code>Text</code></td>
-      <td>Вимір (Dimension)</td>
-      <td>Назва категорії англійською. Основний рівень агрегації для <b>XYZ-аналізу</b>.</td>
+      <td>Dimension</td>
+      <td>Category name in English. Basic aggregation level for <b>XYZ analysis</b>.</td>
     </tr>
     <tr>
       <td><b>Order_Date</b></td>
       <td><code>Datetime</code></td>
-      <td>Тимчасовий ряд</td>
-      <td>Дата покупки. На її основі розраховано стабільність спросу (CV) по місяцях.</td>
+      <td>Time series</td>
+      <td>Purchase date. Based on this, the demand stability (CV) is calculated by months.</td>
     </tr>
   </tbody>
 </table>
