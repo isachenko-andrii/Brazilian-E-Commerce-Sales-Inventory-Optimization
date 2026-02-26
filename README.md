@@ -163,6 +163,8 @@ https://docs.google.com/spreadsheets/d/1bSjTMzd_2ykpMQc9449ffet8W8dJv1Y3C8BU4SFK
 For older versions (INDEX + MATCH used)  
 https://docs.google.com/spreadsheets/d/1iRc6Vj5kr9cEDyhsMmvyFtzySWG2HWmPqqLPvuMe1vY/edit?usp=sharing  
   
+**The project follows the international date standard ISO 8601 (YYYY-MM-DD), which is critical for the correct processing of data in input formulas.**  
+  
 2. Access the Dataset  
 If you wish to see the raw data, download it from Kaggle:  
 [Kaggle: Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
