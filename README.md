@@ -152,10 +152,8 @@ The project includes an interactive dashboard for strategic decision-making:
 ## How to Use  
 
 To explore this analysis:  
-1. Download the archive with the project file  
-[project.zip](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/project.zip)  
-         
-File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/blob/main/docs/ 
+1. Download or open the project file  
+[project.xlsx](https://docs.google.com/spreadsheets/d/1bSjTMzd_2ykpMQc9449ffet8W8dJv1Y3C8BU4SFKg9M/edit?usp=sharing))  
       
 2. Access the Dataset  
 If you wish to see the raw data, download it from Kaggle:  
