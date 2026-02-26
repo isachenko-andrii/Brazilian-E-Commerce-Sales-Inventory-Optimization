@@ -154,16 +154,16 @@ The project includes an interactive dashboard for strategic decision-making:
 ## How to Use  
 
 To explore this analysis:  
-1. To open the project file, follow the link:
-
-Version of the project using IFS & IFERROR and XLOOKUP
-For Microsoft Excel 2021, Microsoft 365, or Google Sheets for full formula compatibility
-https://docs.google.com/spreadsheets/d/1bSjTMzd_2ykpMQc9449ffet8W8dJv1Y3C8BU4SFKg9M/edit?usp=sharing
-
-For older versions (INDEX + MATCH used)
-https://docs.google.com/spreadsheets/d/1iRc6Vj5kr9cEDyhsMmvyFtzySWG2HWmPqqLPvuMe1vY/edit?usp=sharing
-      
-3. Access the Dataset  
+1. To open the project file, follow the link:  
+  
+Version of the project using IFS & IFERROR and XLOOKUP  
+For Microsoft Excel 2021, Microsoft 365, or Google Sheets for full formula compatibility  
+https://docs.google.com/spreadsheets/d/1bSjTMzd_2ykpMQc9449ffet8W8dJv1Y3C8BU4SFKg9M/edit?usp=sharing  
+  
+For older versions (INDEX + MATCH used)  
+https://docs.google.com/spreadsheets/d/1iRc6Vj5kr9cEDyhsMmvyFtzySWG2HWmPqqLPvuMe1vY/edit?usp=sharing  
+  
+2. Access the Dataset  
 If you wish to see the raw data, download it from Kaggle:  
 [Kaggle: Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
   
