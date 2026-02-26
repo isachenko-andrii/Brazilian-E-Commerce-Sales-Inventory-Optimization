@@ -91,7 +91,7 @@ The analysis uses open-source data from the Olist Store, the largest department 
 * **Pivot tables** for data aggregation
 * **Visualization:** Dashboard with KPI and charts.  
   
-Recommended software: Microsoft Excel 2021, Microsoft 365, or Google Sheets for full formula compatibility (XLOOKUP, IFS).  
+**Recommended software:** Microsoft Excel 2021, Microsoft 365, or Google Sheets for full formula compatibility (XLOOKUP, IFS).  
   
 ## Methodology & Formula Logic
  
