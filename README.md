@@ -189,5 +189,7 @@ Thanks to [Olist](https://www.olist.com/) for providing this rich dataset for th
 Special thanks to the [Kaggle](https://www.kaggle.com/) platform for hosting the data.  
 Project Status: Completed. Planned future update: Adding RFM (Recency, Frequency, Monetary) analysis for customer segmentation.  
   
-**License:** MIT License.
+**Project Status:** Completed.  
+  
+**License:** MIT License.  
 
