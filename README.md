@@ -126,7 +126,7 @@ The project stands out for its robust handling of edge cases in demand forecasti
 
 The project includes an interactive dashboard for strategic decision-making: 
 
-**Revenue Concentration (Pareto)**  
+**Olis Sales Strategic Dashboard**  
   
 ![Pareto Chart](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Cover.png)  
       
@@ -137,6 +137,10 @@ The project includes an interactive dashboard for strategic decision-making:
 **Category Dynamics & Seasonality**    
   
 ![Sales Dynamics](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Seasonality-of-leaders.png) 
+
+**Revenue Concentration (Pareto)**  
+  
+![Pareto](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Pareto-analysis.png)  
     
 ## Project structure  
   
