@@ -1,4 +1,6 @@
 ![Project-logo](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/project-logo.png)
+#### [EN](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/edit/main/README.md) | [UA](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/edit/main/README-UA.md) This material is also available in Ukrainian.
+---  
   
   <div align="center">  
     
