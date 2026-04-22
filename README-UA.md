@@ -154,7 +154,7 @@
 ├── project-logo.png — Project cover  
 └── README.md — Project documentation  
       
-## How to Use  
+## Як використовувати  
 
 To explore this analysis:  
 1. To open the project file, follow the link:  
@@ -193,5 +193,5 @@ If you wish to see the raw data, download it from Kaggle:
   
 **Статус проекту:** Завершено.  
   
-***Ліцензія:** MIT License.  
+**Ліцензія:** MIT License.  
 
