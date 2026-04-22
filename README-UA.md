@@ -22,14 +22,14 @@
   
 • **Де ми можемо зменшити запаси, щоб звільнити заморожений капітал?**  
   
-## Data used  
+## Використані дані  
   
-The analysis uses open-source data from the Olist Store, the largest department store in Brazilian marketplaces.  
-    • Source: [Kaggle (Brazilian E-Commerce Public Dataset by Olist)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
-    • Sample size: 100,000+ orders from 2016 to 2018.  
-    • Data composition: Relational structure including tables for orders, product items, product category translation, and timestamps.  
+В аналізі використовуються відкриті дані з Olist Store, найбільшого універмагу на бразильських торгових майданчиках.  
+    • Джерело: [Kaggle (Brazilian E-Commerce Public Dataset by Olist)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
+    • Розмір вибірки: Понад 100 000 замовлень з 2016 по 2018 рік.  
+    • Композиція даних: реляційна структура, включаючи таблиці замовлень, товарних позицій, категорій товарів та часових позначок.  
 
-**Types of basic data:**  
+**Типи даних:**  
   
 <table>
   <thead>
@@ -80,21 +80,21 @@ The analysis uses open-source data from the Olist Store, the largest department 
   </tbody>
 </table>
     
-## Technology Stack  
+## Технологічний стек  
   
-**Tool:** Microsoft Excel / Google Sheets  
-**Advanced Formulas:**  
-* **IFS & IFERROR** for multi-level risk classification  
-* **STDEV.P / AVERAGE** for Coefficient of Variation ($CV$) calculation.  
-* **XLOOKUP** for relational data merging across multiple datasets.
-* **Pivot tables** for data aggregation
-* **Visualization:** Dashboard with KPI and charts.  
+**Інструменти:** Microsoft Excel / Google Sheets  
+**Використані формули:**  
+* **IFS & IFERROR** для багаторівневої класифікації ризиків.  
+* **STDEV.P / AVERAGE** для розрахунку коефіцієнта варіації (CV).  
+* **XLOOKUP** для об'єднання реляційних даних між кількома наборами даних.
+* **Pivot tables** для агрегації даних.
+* **Visualization:** інформаційна панель з ключовими показниками ефективності (KPI) та діаграмами.  
   
-**Recommended software:** Microsoft Excel 2021, Microsoft 365, or Google Sheets for full formula compatibility (XLOOKUP, IFS).  
+**Рекомендоване програмне забезпечення:** Microsoft Excel 2021, Microsoft 365, або Google Sheets для повної сумісності формул (XLOOKUP, IFS).  
   
-## Methodology & Formula Logic
+## Методологія та логіка формул
  
-The project stands out for its robust handling of edge cases in demand forecasting:  
+Проєкт вирізняється надійною обробкою граничних випадків у прогнозуванні попиту:  
     
   **ABC Analysis (Revenue Contribution)**  
     
@@ -113,7 +113,7 @@ The project stands out for its robust handling of edge cases in demand forecasti
   **Y (0.4 < CV ≤ 0.8):** Moderate volatility (seasonality/promotions).  
   **Z (CV > 0.8 or single sales):** Erratic/Unpredictable demand.  
   
-## Key Insights & Results  
+## Ключові висновки та результати  
   
 • **Revenue Concentration:** Group A represents only ~15% of categories but generates ~80% of total revenue ($6.97M).  
 • **The "Star" Segment (AY):** Categories like health_beauty and computers_accessories are the backbone of the business—high revenue with manageable volatility.  
@@ -121,9 +121,9 @@ The project stands out for its robust handling of edge cases in demand forecasti
 • **The "Dead Stock" (CZ):** Identified categories with low revenue and zero predictability. Delisting these could free up approximately 15% of warehouse capacity.  
 • **Seasonality:** Peak demand detected from May to July and a "Black Friday" spike in November.  
   
-## Visualizations  
+## Візуалізації  
 
-The project includes an interactive dashboard for strategic decision-making: 
+Проєкт включає інтерактивний дашборд для прийняття стратегічних рішень: 
 
 **Olis Sales Strategic Dashboard**  
   
@@ -141,12 +141,12 @@ The project includes an interactive dashboard for strategic decision-making:
   
 ![Pareto](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Pareto-analysis.png)  
     
-## Project structure  
+## Структура проекту  
   
-**Brazilian-E-Commerce-Sales-Inventory-Optimization**/ — project directory  
-├── data/ — Project data  
-│      ├── raw/ — Original Olist CSV files (orders, items, products)  
-│      └── processed/ — Excel/Sheets file with master table  
+**Brazilian-E-Commerce-Sales-Inventory-Optimization**/ — Каталог проекту   
+├── data/ — Дані проєкту  
+│      ├── raw/ — Оригінальні CSV-файли Olist (замовлення, товари, продукти)  
+│      └── processed/ — Excel/Sheets файли з головною таблицею  
 ├── docs/ — Methodology explanations and project.xlsx  
 ├── results/ — Screenshots of the Dashboard and final insights  
 ├── report/ — Report of project  
@@ -173,26 +173,25 @@ If you wish to see the raw data, download it from Kaggle:
 [Kaggle: Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
   
   or download CSV files from:  
-File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
+Розташування файлу: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
   
 **olist_order_items_dataset.csv** - Main table with prices and ID  
 **olist_products_dataset.csv** - Directory of products and categories    
 **product_category_name_translation.csv** - Vocabulary: Portuguese -> English    
 **olist_orders_dataset.csv** - Order dates      
   
-## Contact  
+## Контакти  
     
-**Name:** [Andrii Isachenko](https://isachenko-andrii.github.io)  
+**Ім'я:** [Andrii Isachenko](https://isachenko-andrii.github.io)  
 **LinkedIn:** [Andrii Isachenko](https://www.linkedin.com/in/isachenko-andrii/)  
 **E-mail:** isao.datastudio@gmail.com  
   
-## Acknowledgments  
+## Подяки  
   
-Thanks to [Olist](https://www.olist.com/) for providing this rich dataset for the data community.  
-Special thanks to the [Kaggle](https://www.kaggle.com/) platform for hosting the data.  
-Project Status: Completed. Planned future update: Adding RFM (Recency, Frequency, Monetary) analysis for customer segmentation.  
+Дякую [Olist](https://www.olist.com/) за надання цього багатого набору даних.  
+Особлива подяка платформі [Kaggle](https://www.kaggle.com/) за надання даних.  
   
-**Project Status:** Completed.  
+**Статус проекту:** Завершено.  
   
-**License:** MIT License.  
+***Ліцензія:** MIT License.  
 
