@@ -34,48 +34,48 @@
 <table>
   <thead>
     <tr>
-      <th align="left">Column</th>
-      <th align="left">Data type</th>
-      <th align="left">Role in analysis</th>
-      <th align="left">Description</th>
+      <th align="left">Колонка</th>
+      <th align="left">Тип даних</th>
+      <th align="left">Роль в аналізі</th>
+      <th align="left">Опис</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><b>order_id</b></td>
       <td><code>Text</code></td>
-      <td>Identifier</td>
-      <td>Unique order number. Used to count the number of transactions.</td>
+      <td>Ідентифікатор</td>
+      <td>Унікальний номер замовлення. Використовується для підрахунку кількості транзакцій.</td>
     </tr>
     <tr>
       <td><b>product_id</b></td>
       <td><code>Text</code></td>
-      <td>Identifier</td>
-      <td>A unique product code for linking between relational tables.</td>
+      <td>Ідентифікатор</td>
+      <td>Унікальний код продукту для зв'язування між реляційними таблицями.</td>
     </tr>
     <tr>
       <td><b>price</b></td>
       <td><code>Number</code></td>
-      <td>Metrics (Revenue)</td>
-      <td>Cost of goods. The basic indicator for calculating shares in <b>ABC analysis</b>.</td>
+      <td>Метрика (Дохід)</td>
+      <td>Вартість товарів. Основний показник для розрахунку часток в ABC-аналізі</b>.</td>
     </tr>
     <tr>
       <td><b>freight_value</b></td>
       <td><code>Number</code></td>
-      <td>Metrics (Costs)</td>
-      <td>Logistics (delivery) costs for each individual order item.</td>
+      <td>Метрика (Витрати)</td>
+      <td>Логістичні (доставкові) витрати для кожного окремого товару замовлення.</td>
     </tr>
     <tr>
       <td><b>Category_EN</b></td>
       <td><code>Text</code></td>
-      <td>Dimension</td>
-      <td>Category name in English. Basic aggregation level for <b>XYZ analysis</b>.</td>
+      <td>Вимір</td>
+      <td>Назва категорії англійською мовою. Базовий рівень агрегації для XYZ-аналізу</b>.</td>
     </tr>
     <tr>
       <td><b>Order_Date</b></td>
       <td><code>Datetime</code></td>
-      <td>Time series</td>
-      <td>Purchase date. Based on this, the demand stability (CV) is calculated by months.</td>
+      <td>Часові ряди</td>
+      <td>Дата покупки. На основі цього розраховується стабільність попиту (CV) по місяцях.</td>
     </tr>
   </tbody>
 </table>
@@ -98,8 +98,8 @@
     
   **ABC Analysis (Revenue Contribution)**  
     
-  **A-Class (80% Revenue):** High-priority drivers.  
-  **B-Class (15% Revenue):** Stable contributors.  
+  **A-Class (80% Revenue):** Товари з високим пріоритетом.  
+  **B-Class (15% Revenue):** Стабільні учасники.  
   **C-Class (5% Revenue):** High-volume but low-value "long tail."   
      
   **XYZ Analysis (Demand Stability)**  
