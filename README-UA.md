@@ -148,11 +148,11 @@
 │      ├── raw/ — Оригінальні CSV-файли Olist (замовлення, товари, продукти)  
 │      └── processed/ — Excel/Sheets файли з головною таблицею  
 ├── docs/ — Methodology explanations and project.xlsx  
-├── results/ — Screenshots of the Dashboard and final insights  
-├── report/ — Report of project  
+├── results/ — Знімки екрана панелі інструментів та остаточні висновки  
+├── report/ — Звіт про проект 
 ├── LICENSE — MIT License  
 ├── project-logo.png — Project cover  
-└── README.md — Project documentation  
+└── README.md — Проектна документація  
       
 ## Як використовувати  
   
