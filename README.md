@@ -193,9 +193,7 @@ File location: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-In
   
 Thanks to [Olist](https://www.olist.com/) for providing this rich dataset for the data community.  
 Special thanks to the [Kaggle](https://www.kaggle.com/) platform for hosting the data.  
-Project Status: Completed. Planned future update: Adding RFM (Recency, Frequency, Monetary) analysis for customer segmentation.  
-  
-**Project Status:** Completed.  
+   
+**Project Status:** Completed. Planned future update: Adding RFM (Recency, Frequency, Monetary) analysis for customer segmentation.  
   
 **License:** MIT License.  
-
