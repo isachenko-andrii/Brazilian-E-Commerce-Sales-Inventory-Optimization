@@ -4,7 +4,7 @@
   
   <div align="center">  
     
-## Brazilian E-Commerce Sales & Inventory Optimization<br>(ABC/XYZ Analysis)  
+## Оптимізація продажів та складу Brazilian E-Commerce<br>(ABC/XYZ Analysis)  
   
 </div>
     
