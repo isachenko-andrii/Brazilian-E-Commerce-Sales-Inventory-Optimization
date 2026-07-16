@@ -147,11 +147,11 @@
 ├── data/ — Дані проєкту  
 │      ├── raw/ — Оригінальні CSV-файли Olist (замовлення, товари, продукти)  
 │      └── processed/ — Excel/Sheets файли з головною таблицею  
-├── docs/ — Methodology explanations and project.xlsx  
+├── docs/ — Пояснення методології та посилання на project.xlsx  
 ├── results/ — Знімки екрана панелі інструментів та остаточні висновки  
-├── report/ — Звіт про проект 
+├── report/ — Звіт про проект  
 ├── LICENSE — MIT License  
-├── project-logo.png — Project cover  
+├── project-logo.png — Обкладинка проекту    
 └── README.md — Проектна документація  
       
 ## Як використовувати  
