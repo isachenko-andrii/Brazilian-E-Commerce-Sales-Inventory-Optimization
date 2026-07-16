@@ -102,42 +102,42 @@
   **B-Class (15% Revenue):** Стабільні учасники.  
   **C-Class (5% Revenue):** High-volume but low-value "long tail."   
      
-  **XYZ Analysis (Demand Stability)**  
-    
-  We used the **Coefficient of Variation (CV)** to measure risk.  
-  **Special Logic:** To ensure accuracy, we implemented a custom formula to handle single-sale  
-  **anomalies ($CV=0$):**  
-  =IFERROR(IFS(CV=0; "Z"; CV>0.8; "Z"; CV>0.4; "Y"; TRUE; "X"); "Z")  
-    
-  **X (CV ≤ 0.4):** Highly stable demand.  
-  **Y (0.4 < CV ≤ 0.8):** Moderate volatility (seasonality/promotions).  
-  **Z (CV > 0.8 or single sales):** Erratic/Unpredictable demand.  
+**XYZ-аналіз (стабільність попиту)**  
   
+Ми використовували **коефіцієнт варіації (CV)** для вимірювання ризику.  
+**Спеціальна логіка:** Для забезпечення точності ми впровадили власну формулу для обробки одиничних продажів.  
+**аномалій ($CV=0$):**  
+=IFERROR(IFS(CV=0; "Z"; CV>0.8; "Z"; CV>0.4; "Y"; TRUE; "X"); "Z")  
+  
+**X (CV ≤ 0.4):** Дуже стабільний попит.  
+**Y (0.4 < CV ≤ 0.8):** Помірна волатильність (сезонність/акції).  
+**Z (CV > 0.8 або одиничні продажі):** Нестабільний/непередбачуваний попит.  
+    
 ## Ключові висновки та результати  
   
-• **Revenue Concentration:** Group A represents only ~15% of categories but generates ~80% of total revenue ($6.97M).  
-• **The "Star" Segment (AY):** Categories like health_beauty and computers_accessories are the backbone of the business—high revenue with manageable volatility.  
-• **Risk Zone (AZ):** housewares and perfumery generate massive revenue but suffer from erratic spikes. They require a "Safety Stock" buffer of 25%+.  
-• **The "Dead Stock" (CZ):** Identified categories with low revenue and zero predictability. Delisting these could free up approximately 15% of warehouse capacity.  
-• **Seasonality:** Peak demand detected from May to July and a "Black Friday" spike in November.  
+• **Концентрація доходів:** Група A представляє лише ~15% категорій, але генерує ~80% загального доходу (6,97 млн ​​доларів США).  
+• **Сегмент «Зірка» (AY):** Такі категорії, як здоров'я та краса, а також комп'ютерні аксесуари, є основою бізнесу — високий дохід з керованою волатильністю.  
+• **Зона ризику (AZ):** Товари для дому та парфумерія генерують величезний дохід, але страждають від нестабільних стрибків. Вони потребують буфера «страхового запасу» на рівні 25%+.  
+• **«Мертвий запас» (CZ):** Визначені категорії з низьким доходом та нульовою передбачуваністю. Виключення їх зі списку може звільнити приблизно 15% складських потужностей.  
+• **Сезонність:** Піковий попит спостерігається з травня по липень, а сплеск «Чорної п'ятниці» — у листопаді.  
   
 ## Візуалізації  
-
+  
 Проєкт включає інтерактивний дашборд для прийняття стратегічних рішень: 
-
-**Olis Sales Strategic Dashboard**  
+  
+**Стратегічна панель керування продажами Olis**  
   
 ![Pareto Chart](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Cover.png)  
       
-**ABC/XYZ Strategic Matrix**    
+**Стратегічна матриця ABC/XYZ**    
 
 ![Pareto Chart](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/ABC-XYZ-analysis-matrix.png)  
         
-**Category Dynamics & Seasonality**    
+**Динаміка категорій та сезонність**    
   
 ![Sales Dynamics](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Seasonality-of-leaders.png) 
 
-**Revenue Concentration (Pareto)**  
+**Концентрація доходу (Парето)**  
   
 ![Pareto](https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/raw/main/results/Pareto-analysis.png)  
     
@@ -155,31 +155,32 @@
 └── README.md — Project documentation  
       
 ## Як використовувати  
-
-To explore this analysis:  
-1. To open the project file, follow the link:  
   
-Version of the project using IFS & IFERROR and XLOOKUP  
-For Microsoft Excel 2021, Microsoft 365, or Google Sheets for full formula compatibility  
+Щоб ознайомитися з цим аналізом:  
+  
+1. Щоб відкрити файл проєкту, перейдіть за посиланням:  
+  
+Версія проєкту з використанням IFS & IFERROR та XLOOKUP  
+Для Microsoft Excel 2021, Microsoft 365 або Google Sheets для повної сумісності з формулами  
 https://docs.google.com/spreadsheets/d/1bSjTMzd_2ykpMQc9449ffet8W8dJv1Y3C8BU4SFKg9M/edit?usp=sharing  
   
-For older versions (INDEX + MATCH used)  
+Для старіших версій (використовується INDEX + MATCH)  
 https://docs.google.com/spreadsheets/d/1iRc6Vj5kr9cEDyhsMmvyFtzySWG2HWmPqqLPvuMe1vY/edit?usp=sharing  
   
-**The project follows the international date standard ISO 8601 (YYYY-MM-DD), which is critical for the correct processing of data in input formulas.**  
+**Проєкт відповідає міжнародному стандарту дати ISO 8601 (РРРР-ММ-ДД), який є критично важливим для правильної обробки даних у вхідних формулах.**   
   
-2. Access the Dataset  
-If you wish to see the raw data, download it from Kaggle:  
-[Kaggle: Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
+2. Отримайте доступ до Набір даних  
+Якщо ви хочете переглянути необроблені дані, завантажте їх з Kaggle:  
+[Kaggle: Бразильський публічний набір даних електронної комерції](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)  
   
-  or download CSV files from:  
+або завантажте файли CSV з:  
 Розташування файлу: https://github.com/isachenko-andrii/Brazilian-E-Commerce-Sales-Inventory-Optimization/tree/main/data/raw  
   
-**olist_order_items_dataset.csv** - Main table with prices and ID  
-**olist_products_dataset.csv** - Directory of products and categories    
-**product_category_name_translation.csv** - Vocabulary: Portuguese -> English    
-**olist_orders_dataset.csv** - Order dates      
-  
+**olist_order_items_dataset.csv** - Головна таблиця з цінами та ідентифікатором  
+**olist_products_dataset.csv** - Каталог товарів та категорій  
+**product_category_name_translation.csv** - Словник: Португальська -> Англійська  
+**olist_orders_dataset.csv** - Дати замовлення   
+    
 ## Контакти  
     
 **Автор:** [Andrii Isachenko](https://isachenko-andrii.github.io)  
