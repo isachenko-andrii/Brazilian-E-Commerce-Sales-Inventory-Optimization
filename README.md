@@ -150,7 +150,7 @@ The project includes an interactive dashboard for strategic decision-making:
 ├── data/ — Project data  
 │      ├── raw/ — Original Olist CSV files (orders, items, products)  
 │      └── processed/ — Excel/Sheets file with master table  
-├── docs/ — Methodology explanations and project.xlsx  
+├── docs/ — Methodology explanations and project.xlsx  links 
 ├── results/ — Screenshots of the Dashboard and final insights  
 ├── report/ — Report of project  
 ├── LICENSE — MIT License  
